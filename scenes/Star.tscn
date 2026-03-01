@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://wpl6u3wx1pb"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2jiqo"]
+radius = 4.0
+
+[node name="Area2D" type="Area2D" unique_id=1029264451]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1331527971]
+shape = SubResource("CapsuleShape2D_2jiqo")

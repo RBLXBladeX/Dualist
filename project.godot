@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="Test"
-run/main_scene="uid://lju8rbqgrtpf"
+run/main_scene="uid://bdyigy4fvbvtr"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Torch_list="*uid://b18dkckal6uaf"
+TPBool="*uid://btvdqu36171l8"
 
 [input]
 
